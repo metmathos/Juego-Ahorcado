@@ -1,0 +1,44 @@
+# ========================
+# Python archivos a ignorar
+# ========================
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+
+# Archivos de entorno virtual (pueden ser venv, env o similares)
+venv/
+env/
+.venv/
+.env/
+
+# Archivos de configuración local
+*.env
+*.ini
+*.cfg
+
+# Archivos de log y temporales
+*.log
+*.tmp
+*.swp
+
+# Archivos de bases de datos temporales
+*.sqlite3
+*.db
+
+# Configuraciones de VS Code
+.vscode/
+
+# Archivos del sistema operativo
+.DS_Store        # MacOS
+Thumbs.db        # Windows
+
+# Carpetas de salida o exportación (si generás imágenes, builds, etc)
+output/
+exports/
+dist/
+build/
+
+# Ignorar archivos de prueba específicos (opcional)
+test_*.py
+ECHO est� activado.
